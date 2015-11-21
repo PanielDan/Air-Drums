@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Air Drums.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>Air_Drums.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
+		<key>Air_Drums_Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+		<key>Air_Drums_WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>3</integer>
+		</dict>
+		<key>Notification - Air_Drums.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>2</integer>
+		</dict>
+		<key>Notification - Air_Drums_Watch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>Notification - Air_Drums_WatchKit.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>1F297A821BF889F300FF22B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F297AAB1BF88AA600FF22B1</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F7A1CF21BF88DF50058D84B</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F9E0BBB1BF7E2B600FD3D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F9E0BCF1BF7E2B600FD3D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1F9E0BDA1BF7E2B600FD3D27</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>

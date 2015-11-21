@@ -1,0 +1,906 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F297A6E1BF8511D00FF22B1 /* jazzLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A6D1BF8511D00FF22B1 /* jazzLeftViewController.swift */; };
+		1F297A701BF8512A00FF22B1 /* jazzRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A6F1BF8512A00FF22B1 /* jazzRightViewController.swift */; };
+		1F297A761BF86F3C00FF22B1 /* eightLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A751BF86F3C00FF22B1 /* eightLeftViewController.swift */; };
+		1F297A781BF86F5A00FF22B1 /* eightRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A771BF86F5A00FF22B1 /* eightRightViewController.swift */; };
+		1F297A7A1BF8768F00FF22B1 /* acousticLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A791BF8768F00FF22B1 /* acousticLeftViewController.swift */; };
+		1F297A7C1BF8769E00FF22B1 /* acousticRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A7B1BF8769E00FF22B1 /* acousticRightViewController.swift */; };
+		1F297A7E1BF8771D00FF22B1 /* tomsLeftViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A7D1BF8771D00FF22B1 /* tomsLeftViewController.swift */; };
+		1F297A801BF8772700FF22B1 /* tomsRightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F297A7F1BF8772700FF22B1 /* tomsRightViewController.swift */; };
+		1F7A1CF71BF88DF50058D84B /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1CF51BF88DF50058D84B /* Interface.storyboard */; };
+		1F7A1CF91BF88DF50058D84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1CF81BF88DF50058D84B /* Assets.xcassets */; };
+		1F7A1D001BF88DF50058D84B /* Air_Drums_Watch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 1F7A1CFF1BF88DF50058D84B /* Air_Drums_Watch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F7A1D071BF88DF50058D84B /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A1D061BF88DF50058D84B /* InterfaceController.swift */; };
+		1F7A1D091BF88DF50058D84B /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A1D081BF88DF50058D84B /* ExtensionDelegate.swift */; };
+		1F7A1D0B1BF88DF50058D84B /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A1D0A1BF88DF50058D84B /* NotificationController.swift */; };
+		1F7A1D0D1BF88DF50058D84B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D0C1BF88DF50058D84B /* Assets.xcassets */; };
+		1F7A1D111BF88DF50058D84B /* Air_Drums_Watch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F7A1CF31BF88DF50058D84B /* Air_Drums_Watch.app */; };
+		1F7A1D1A1BF893E50058D84B /* Data Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7A1D191BF893E50058D84B /* Data Manager.swift */; };
+		1F7A1D2B1BF89BF10058D84B /* clap-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D1B1BF89BF10058D84B /* clap-808.wav */; };
+		1F7A1D2C1BF89BF10058D84B /* crash-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D1C1BF89BF10058D84B /* crash-808.wav */; };
+		1F7A1D2D1BF89BF10058D84B /* crash-acoustic.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D1D1BF89BF10058D84B /* crash-acoustic.wav */; };
+		1F7A1D2E1BF89BF10058D84B /* hihat-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D1E1BF89BF10058D84B /* hihat-acoustic01.wav */; };
+		1F7A1D2F1BF89BF10058D84B /* hihat-acoustic02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D1F1BF89BF10058D84B /* hihat-acoustic02.wav */; };
+		1F7A1D301BF89BF10058D84B /* kick-electro01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D201BF89BF10058D84B /* kick-electro01.wav */; };
+		1F7A1D311BF89BF10058D84B /* kick-tape.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D211BF89BF10058D84B /* kick-tape.wav */; };
+		1F7A1D321BF89BF10058D84B /* openhat-analog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D221BF89BF10058D84B /* openhat-analog.wav */; };
+		1F7A1D331BF89BF10058D84B /* openhat-slick.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D231BF89BF10058D84B /* openhat-slick.wav */; };
+		1F7A1D341BF89BF10058D84B /* ride-acoustic02.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D241BF89BF10058D84B /* ride-acoustic02.wav */; };
+		1F7A1D351BF89BF10058D84B /* snare-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D251BF89BF10058D84B /* snare-808.wav */; };
+		1F7A1D361BF89BF10058D84B /* snare-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D261BF89BF10058D84B /* snare-acoustic01.wav */; };
+		1F7A1D371BF89BF10058D84B /* snare-modular.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D271BF89BF10058D84B /* snare-modular.wav */; };
+		1F7A1D381BF89BF10058D84B /* tom-808.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D281BF89BF10058D84B /* tom-808.wav */; };
+		1F7A1D391BF89BF10058D84B /* tom-acoustic01.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D291BF89BF10058D84B /* tom-acoustic01.wav */; };
+		1F7A1D3A1BF89BF10058D84B /* tom-analog.wav in Resources */ = {isa = PBXBuildFile; fileRef = 1F7A1D2A1BF89BF10058D84B /* tom-analog.wav */; };
+		1F7AAE4F1BF80F3100C615A5 /* drumsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7AAE4E1BF80F3100C615A5 /* drumsViewController.swift */; };
+		1F9E0BC01BF7E2B600FD3D27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E0BBF1BF7E2B600FD3D27 /* AppDelegate.swift */; };
+		1F9E0BC21BF7E2B600FD3D27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E0BC11BF7E2B600FD3D27 /* ViewController.swift */; };
+		1F9E0BC51BF7E2B600FD3D27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E0BC31BF7E2B600FD3D27 /* Main.storyboard */; };
+		1F9E0BC71BF7E2B600FD3D27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E0BC61BF7E2B600FD3D27 /* Assets.xcassets */; };
+		1F9E0BCA1BF7E2B600FD3D27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F9E0BC81BF7E2B600FD3D27 /* LaunchScreen.storyboard */; };
+		1F9E0BD51BF7E2B600FD3D27 /* Air_DrumsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E0BD41BF7E2B600FD3D27 /* Air_DrumsTests.swift */; };
+		1F9E0BE01BF7E2B600FD3D27 /* Air_DrumsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E0BDF1BF7E2B600FD3D27 /* Air_DrumsUITests.swift */; };
+		1F9E0BEE1BF7EC6F00FD3D27 /* Main_MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F9E0BED1BF7EC6F00FD3D27 /* Main_MenuTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F7A1D011BF88DF50058D84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9E0BB41BF7E2B600FD3D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7A1CFE1BF88DF50058D84B;
+			remoteInfo = "Air_Drums_Watch Extension";
+		};
+		1F7A1D0F1BF88DF50058D84B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9E0BB41BF7E2B600FD3D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F7A1CF21BF88DF50058D84B;
+			remoteInfo = Air_Drums_Watch;
+		};
+		1F9E0BD11BF7E2B600FD3D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9E0BB41BF7E2B600FD3D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9E0BBB1BF7E2B600FD3D27;
+			remoteInfo = "Air Drums";
+		};
+		1F9E0BDC1BF7E2B600FD3D27 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F9E0BB41BF7E2B600FD3D27 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F9E0BBB1BF7E2B600FD3D27;
+			remoteInfo = "Air Drums";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F297AA91BF889F300FF22B1 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F7A1D111BF88DF50058D84B /* Air_Drums_Watch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A1D171BF88DF50058D84B /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F7A1D001BF88DF50058D84B /* Air_Drums_Watch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F297A6D1BF8511D00FF22B1 /* jazzLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jazzLeftViewController.swift; sourceTree = "<group>"; };
+		1F297A6F1BF8512A00FF22B1 /* jazzRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jazzRightViewController.swift; sourceTree = "<group>"; };
+		1F297A751BF86F3C00FF22B1 /* eightLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = eightLeftViewController.swift; path = ../eightLeftViewController.swift; sourceTree = "<group>"; };
+		1F297A771BF86F5A00FF22B1 /* eightRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eightRightViewController.swift; sourceTree = "<group>"; };
+		1F297A791BF8768F00FF22B1 /* acousticLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = acousticLeftViewController.swift; sourceTree = "<group>"; };
+		1F297A7B1BF8769E00FF22B1 /* acousticRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = acousticRightViewController.swift; sourceTree = "<group>"; };
+		1F297A7D1BF8771D00FF22B1 /* tomsLeftViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tomsLeftViewController.swift; sourceTree = "<group>"; };
+		1F297A7F1BF8772700FF22B1 /* tomsRightViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = tomsRightViewController.swift; sourceTree = "<group>"; };
+		1F7A1CF31BF88DF50058D84B /* Air_Drums_Watch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Air_Drums_Watch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7A1CF61BF88DF50058D84B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		1F7A1CF81BF88DF50058D84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F7A1CFA1BF88DF50058D84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7A1CFF1BF88DF50058D84B /* Air_Drums_Watch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Air_Drums_Watch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F7A1D051BF88DF50058D84B /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		1F7A1D061BF88DF50058D84B /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		1F7A1D081BF88DF50058D84B /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		1F7A1D0A1BF88DF50058D84B /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		1F7A1D0C1BF88DF50058D84B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F7A1D0E1BF88DF50058D84B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F7A1D191BF893E50058D84B /* Data Manager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Data Manager.swift"; sourceTree = "<group>"; };
+		1F7A1D1B1BF89BF10058D84B /* clap-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "clap-808.wav"; sourceTree = "<group>"; };
+		1F7A1D1C1BF89BF10058D84B /* crash-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-808.wav"; sourceTree = "<group>"; };
+		1F7A1D1D1BF89BF10058D84B /* crash-acoustic.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "crash-acoustic.wav"; sourceTree = "<group>"; };
+		1F7A1D1E1BF89BF10058D84B /* hihat-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-acoustic01.wav"; sourceTree = "<group>"; };
+		1F7A1D1F1BF89BF10058D84B /* hihat-acoustic02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "hihat-acoustic02.wav"; sourceTree = "<group>"; };
+		1F7A1D201BF89BF10058D84B /* kick-electro01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-electro01.wav"; sourceTree = "<group>"; };
+		1F7A1D211BF89BF10058D84B /* kick-tape.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "kick-tape.wav"; sourceTree = "<group>"; };
+		1F7A1D221BF89BF10058D84B /* openhat-analog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "openhat-analog.wav"; sourceTree = "<group>"; };
+		1F7A1D231BF89BF10058D84B /* openhat-slick.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "openhat-slick.wav"; sourceTree = "<group>"; };
+		1F7A1D241BF89BF10058D84B /* ride-acoustic02.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "ride-acoustic02.wav"; sourceTree = "<group>"; };
+		1F7A1D251BF89BF10058D84B /* snare-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-808.wav"; sourceTree = "<group>"; };
+		1F7A1D261BF89BF10058D84B /* snare-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-acoustic01.wav"; sourceTree = "<group>"; };
+		1F7A1D271BF89BF10058D84B /* snare-modular.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "snare-modular.wav"; sourceTree = "<group>"; };
+		1F7A1D281BF89BF10058D84B /* tom-808.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tom-808.wav"; sourceTree = "<group>"; };
+		1F7A1D291BF89BF10058D84B /* tom-acoustic01.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tom-acoustic01.wav"; sourceTree = "<group>"; };
+		1F7A1D2A1BF89BF10058D84B /* tom-analog.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = "tom-analog.wav"; sourceTree = "<group>"; };
+		1F7AAE4E1BF80F3100C615A5 /* drumsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = drumsViewController.swift; sourceTree = "<group>"; };
+		1F9E0BBC1BF7E2B600FD3D27 /* Air Drums.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Air Drums.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9E0BBF1BF7E2B600FD3D27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F9E0BC11BF7E2B600FD3D27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F9E0BC41BF7E2B600FD3D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F9E0BC61BF7E2B600FD3D27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F9E0BC91BF7E2B600FD3D27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F9E0BCB1BF7E2B600FD3D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9E0BD01BF7E2B600FD3D27 /* Air DrumsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air DrumsTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9E0BD41BF7E2B600FD3D27 /* Air_DrumsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_DrumsTests.swift; sourceTree = "<group>"; };
+		1F9E0BD61BF7E2B600FD3D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9E0BDB1BF7E2B600FD3D27 /* Air DrumsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Air DrumsUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F9E0BDF1BF7E2B600FD3D27 /* Air_DrumsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Air_DrumsUITests.swift; sourceTree = "<group>"; };
+		1F9E0BE11BF7E2B600FD3D27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F9E0BED1BF7EC6F00FD3D27 /* Main_MenuTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Main_MenuTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F7A1CFC1BF88DF50058D84B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BB91BF7E2B600FD3D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BCD1BF7E2B600FD3D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BD81BF7E2B600FD3D27 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F7A1CF41BF88DF50058D84B /* Air_Drums_Watch */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A1CF51BF88DF50058D84B /* Interface.storyboard */,
+				1F7A1CF81BF88DF50058D84B /* Assets.xcassets */,
+				1F7A1CFA1BF88DF50058D84B /* Info.plist */,
+			);
+			path = Air_Drums_Watch;
+			sourceTree = "<group>";
+		};
+		1F7A1D031BF88DF50058D84B /* Air_Drums_Watch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A1D061BF88DF50058D84B /* InterfaceController.swift */,
+				1F7A1D081BF88DF50058D84B /* ExtensionDelegate.swift */,
+				1F7A1D0A1BF88DF50058D84B /* NotificationController.swift */,
+				1F7A1D191BF893E50058D84B /* Data Manager.swift */,
+				1F7A1D0C1BF88DF50058D84B /* Assets.xcassets */,
+				1F7A1D0E1BF88DF50058D84B /* Info.plist */,
+				1F7A1D041BF88DF50058D84B /* Supporting Files */,
+			);
+			path = "Air_Drums_Watch Extension";
+			sourceTree = "<group>";
+		};
+		1F7A1D041BF88DF50058D84B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A1D051BF88DF50058D84B /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1F9E0BB31BF7E2B600FD3D27 = {
+			isa = PBXGroup;
+			children = (
+				1F9E0BBE1BF7E2B600FD3D27 /* Air Drums */,
+				1F9E0BD31BF7E2B600FD3D27 /* Air DrumsTests */,
+				1F9E0BDE1BF7E2B600FD3D27 /* Air DrumsUITests */,
+				1F7A1CF41BF88DF50058D84B /* Air_Drums_Watch */,
+				1F7A1D031BF88DF50058D84B /* Air_Drums_Watch Extension */,
+				1F9E0BBD1BF7E2B600FD3D27 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F9E0BBD1BF7E2B600FD3D27 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F9E0BBC1BF7E2B600FD3D27 /* Air Drums.app */,
+				1F9E0BD01BF7E2B600FD3D27 /* Air DrumsTests.xctest */,
+				1F9E0BDB1BF7E2B600FD3D27 /* Air DrumsUITests.xctest */,
+				1F7A1CF31BF88DF50058D84B /* Air_Drums_Watch.app */,
+				1F7A1CFF1BF88DF50058D84B /* Air_Drums_Watch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F9E0BBE1BF7E2B600FD3D27 /* Air Drums */ = {
+			isa = PBXGroup;
+			children = (
+				1F7A1D1B1BF89BF10058D84B /* clap-808.wav */,
+				1F7A1D1C1BF89BF10058D84B /* crash-808.wav */,
+				1F7A1D1D1BF89BF10058D84B /* crash-acoustic.wav */,
+				1F7A1D1E1BF89BF10058D84B /* hihat-acoustic01.wav */,
+				1F7A1D1F1BF89BF10058D84B /* hihat-acoustic02.wav */,
+				1F7A1D201BF89BF10058D84B /* kick-electro01.wav */,
+				1F7A1D211BF89BF10058D84B /* kick-tape.wav */,
+				1F7A1D221BF89BF10058D84B /* openhat-analog.wav */,
+				1F7A1D231BF89BF10058D84B /* openhat-slick.wav */,
+				1F7A1D241BF89BF10058D84B /* ride-acoustic02.wav */,
+				1F7A1D251BF89BF10058D84B /* snare-808.wav */,
+				1F7A1D261BF89BF10058D84B /* snare-acoustic01.wav */,
+				1F7A1D271BF89BF10058D84B /* snare-modular.wav */,
+				1F7A1D281BF89BF10058D84B /* tom-808.wav */,
+				1F7A1D291BF89BF10058D84B /* tom-acoustic01.wav */,
+				1F7A1D2A1BF89BF10058D84B /* tom-analog.wav */,
+				1F297A771BF86F5A00FF22B1 /* eightRightViewController.swift */,
+				1F9E0BBF1BF7E2B600FD3D27 /* AppDelegate.swift */,
+				1F297A751BF86F3C00FF22B1 /* eightLeftViewController.swift */,
+				1F297A7D1BF8771D00FF22B1 /* tomsLeftViewController.swift */,
+				1F297A7F1BF8772700FF22B1 /* tomsRightViewController.swift */,
+				1F9E0BC11BF7E2B600FD3D27 /* ViewController.swift */,
+				1F9E0BC31BF7E2B600FD3D27 /* Main.storyboard */,
+				1F297A791BF8768F00FF22B1 /* acousticLeftViewController.swift */,
+				1F297A7B1BF8769E00FF22B1 /* acousticRightViewController.swift */,
+				1F297A6D1BF8511D00FF22B1 /* jazzLeftViewController.swift */,
+				1F297A6F1BF8512A00FF22B1 /* jazzRightViewController.swift */,
+				1F7AAE4E1BF80F3100C615A5 /* drumsViewController.swift */,
+				1F9E0BED1BF7EC6F00FD3D27 /* Main_MenuTableViewCell.swift */,
+				1F9E0BC61BF7E2B600FD3D27 /* Assets.xcassets */,
+				1F9E0BC81BF7E2B600FD3D27 /* LaunchScreen.storyboard */,
+				1F9E0BCB1BF7E2B600FD3D27 /* Info.plist */,
+			);
+			path = "Air Drums";
+			sourceTree = "<group>";
+		};
+		1F9E0BD31BF7E2B600FD3D27 /* Air DrumsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9E0BD41BF7E2B600FD3D27 /* Air_DrumsTests.swift */,
+				1F9E0BD61BF7E2B600FD3D27 /* Info.plist */,
+			);
+			path = "Air DrumsTests";
+			sourceTree = "<group>";
+		};
+		1F9E0BDE1BF7E2B600FD3D27 /* Air DrumsUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1F9E0BDF1BF7E2B600FD3D27 /* Air_DrumsUITests.swift */,
+				1F9E0BE11BF7E2B600FD3D27 /* Info.plist */,
+			);
+			path = "Air DrumsUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F7A1CF21BF88DF50058D84B /* Air_Drums_Watch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7A1D181BF88DF50058D84B /* Build configuration list for PBXNativeTarget "Air_Drums_Watch" */;
+			buildPhases = (
+				1F7A1CF11BF88DF50058D84B /* Resources */,
+				1F7A1D171BF88DF50058D84B /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7A1D021BF88DF50058D84B /* PBXTargetDependency */,
+			);
+			name = Air_Drums_Watch;
+			productName = Air_Drums_Watch;
+			productReference = 1F7A1CF31BF88DF50058D84B /* Air_Drums_Watch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		1F7A1CFE1BF88DF50058D84B /* Air_Drums_Watch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F7A1D161BF88DF50058D84B /* Build configuration list for PBXNativeTarget "Air_Drums_Watch Extension" */;
+			buildPhases = (
+				1F7A1CFB1BF88DF50058D84B /* Sources */,
+				1F7A1CFC1BF88DF50058D84B /* Frameworks */,
+				1F7A1CFD1BF88DF50058D84B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Air_Drums_Watch Extension";
+			productName = "Air_Drums_Watch Extension";
+			productReference = 1F7A1CFF1BF88DF50058D84B /* Air_Drums_Watch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		1F9E0BBB1BF7E2B600FD3D27 /* Air Drums */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9E0BE41BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air Drums" */;
+			buildPhases = (
+				1F9E0BB81BF7E2B600FD3D27 /* Sources */,
+				1F9E0BB91BF7E2B600FD3D27 /* Frameworks */,
+				1F9E0BBA1BF7E2B600FD3D27 /* Resources */,
+				1F297AA91BF889F300FF22B1 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F7A1D101BF88DF50058D84B /* PBXTargetDependency */,
+			);
+			name = "Air Drums";
+			productName = "Air Drums";
+			productReference = 1F9E0BBC1BF7E2B600FD3D27 /* Air Drums.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F9E0BCF1BF7E2B600FD3D27 /* Air DrumsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9E0BE71BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air DrumsTests" */;
+			buildPhases = (
+				1F9E0BCC1BF7E2B600FD3D27 /* Sources */,
+				1F9E0BCD1BF7E2B600FD3D27 /* Frameworks */,
+				1F9E0BCE1BF7E2B600FD3D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9E0BD21BF7E2B600FD3D27 /* PBXTargetDependency */,
+			);
+			name = "Air DrumsTests";
+			productName = "Air DrumsTests";
+			productReference = 1F9E0BD01BF7E2B600FD3D27 /* Air DrumsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1F9E0BDA1BF7E2B600FD3D27 /* Air DrumsUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F9E0BEA1BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air DrumsUITests" */;
+			buildPhases = (
+				1F9E0BD71BF7E2B600FD3D27 /* Sources */,
+				1F9E0BD81BF7E2B600FD3D27 /* Frameworks */,
+				1F9E0BD91BF7E2B600FD3D27 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F9E0BDD1BF7E2B600FD3D27 /* PBXTargetDependency */,
+			);
+			name = "Air DrumsUITests";
+			productName = "Air DrumsUITests";
+			productReference = 1F9E0BDB1BF7E2B600FD3D27 /* Air DrumsUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F9E0BB41BF7E2B600FD3D27 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Michelle  Yin";
+				TargetAttributes = {
+					1F7A1CF21BF88DF50058D84B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9TYRXLJBA;
+					};
+					1F7A1CFE1BF88DF50058D84B = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9TYRXLJBA;
+					};
+					1F9E0BBB1BF7E2B600FD3D27 = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = N9TYRXLJBA;
+					};
+					1F9E0BCF1BF7E2B600FD3D27 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1F9E0BBB1BF7E2B600FD3D27;
+					};
+					1F9E0BDA1BF7E2B600FD3D27 = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = 1F9E0BBB1BF7E2B600FD3D27;
+					};
+				};
+			};
+			buildConfigurationList = 1F9E0BB71BF7E2B600FD3D27 /* Build configuration list for PBXProject "Air Drums" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F9E0BB31BF7E2B600FD3D27;
+			productRefGroup = 1F9E0BBD1BF7E2B600FD3D27 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F9E0BBB1BF7E2B600FD3D27 /* Air Drums */,
+				1F9E0BCF1BF7E2B600FD3D27 /* Air DrumsTests */,
+				1F9E0BDA1BF7E2B600FD3D27 /* Air DrumsUITests */,
+				1F7A1CF21BF88DF50058D84B /* Air_Drums_Watch */,
+				1F7A1CFE1BF88DF50058D84B /* Air_Drums_Watch Extension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F7A1CF11BF88DF50058D84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7A1CF91BF88DF50058D84B /* Assets.xcassets in Resources */,
+				1F7A1CF71BF88DF50058D84B /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F7A1CFD1BF88DF50058D84B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7A1D0D1BF88DF50058D84B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BBA1BF7E2B600FD3D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9E0BCA1BF7E2B600FD3D27 /* LaunchScreen.storyboard in Resources */,
+				1F7A1D3A1BF89BF10058D84B /* tom-analog.wav in Resources */,
+				1F7A1D391BF89BF10058D84B /* tom-acoustic01.wav in Resources */,
+				1F7A1D341BF89BF10058D84B /* ride-acoustic02.wav in Resources */,
+				1F7A1D361BF89BF10058D84B /* snare-acoustic01.wav in Resources */,
+				1F7A1D2D1BF89BF10058D84B /* crash-acoustic.wav in Resources */,
+				1F7A1D381BF89BF10058D84B /* tom-808.wav in Resources */,
+				1F7A1D311BF89BF10058D84B /* kick-tape.wav in Resources */,
+				1F7A1D2F1BF89BF10058D84B /* hihat-acoustic02.wav in Resources */,
+				1F7A1D321BF89BF10058D84B /* openhat-analog.wav in Resources */,
+				1F7A1D371BF89BF10058D84B /* snare-modular.wav in Resources */,
+				1F9E0BC71BF7E2B600FD3D27 /* Assets.xcassets in Resources */,
+				1F9E0BC51BF7E2B600FD3D27 /* Main.storyboard in Resources */,
+				1F7A1D351BF89BF10058D84B /* snare-808.wav in Resources */,
+				1F7A1D2B1BF89BF10058D84B /* clap-808.wav in Resources */,
+				1F7A1D2C1BF89BF10058D84B /* crash-808.wav in Resources */,
+				1F7A1D301BF89BF10058D84B /* kick-electro01.wav in Resources */,
+				1F7A1D331BF89BF10058D84B /* openhat-slick.wav in Resources */,
+				1F7A1D2E1BF89BF10058D84B /* hihat-acoustic01.wav in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BCE1BF7E2B600FD3D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BD91BF7E2B600FD3D27 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F7A1CFB1BF88DF50058D84B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F7A1D0B1BF88DF50058D84B /* NotificationController.swift in Sources */,
+				1F7A1D091BF88DF50058D84B /* ExtensionDelegate.swift in Sources */,
+				1F7A1D1A1BF893E50058D84B /* Data Manager.swift in Sources */,
+				1F7A1D071BF88DF50058D84B /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BB81BF7E2B600FD3D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F297A7E1BF8771D00FF22B1 /* tomsLeftViewController.swift in Sources */,
+				1F297A761BF86F3C00FF22B1 /* eightLeftViewController.swift in Sources */,
+				1F297A6E1BF8511D00FF22B1 /* jazzLeftViewController.swift in Sources */,
+				1F9E0BC21BF7E2B600FD3D27 /* ViewController.swift in Sources */,
+				1F9E0BEE1BF7EC6F00FD3D27 /* Main_MenuTableViewCell.swift in Sources */,
+				1F7AAE4F1BF80F3100C615A5 /* drumsViewController.swift in Sources */,
+				1F297A701BF8512A00FF22B1 /* jazzRightViewController.swift in Sources */,
+				1F297A7C1BF8769E00FF22B1 /* acousticRightViewController.swift in Sources */,
+				1F297A801BF8772700FF22B1 /* tomsRightViewController.swift in Sources */,
+				1F297A7A1BF8768F00FF22B1 /* acousticLeftViewController.swift in Sources */,
+				1F9E0BC01BF7E2B600FD3D27 /* AppDelegate.swift in Sources */,
+				1F297A781BF86F5A00FF22B1 /* eightRightViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BCC1BF7E2B600FD3D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9E0BD51BF7E2B600FD3D27 /* Air_DrumsTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F9E0BD71BF7E2B600FD3D27 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9E0BE01BF7E2B600FD3D27 /* Air_DrumsUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F7A1D021BF88DF50058D84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7A1CFE1BF88DF50058D84B /* Air_Drums_Watch Extension */;
+			targetProxy = 1F7A1D011BF88DF50058D84B /* PBXContainerItemProxy */;
+		};
+		1F7A1D101BF88DF50058D84B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F7A1CF21BF88DF50058D84B /* Air_Drums_Watch */;
+			targetProxy = 1F7A1D0F1BF88DF50058D84B /* PBXContainerItemProxy */;
+		};
+		1F9E0BD21BF7E2B600FD3D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9E0BBB1BF7E2B600FD3D27 /* Air Drums */;
+			targetProxy = 1F9E0BD11BF7E2B600FD3D27 /* PBXContainerItemProxy */;
+		};
+		1F9E0BDD1BF7E2B600FD3D27 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F9E0BBB1BF7E2B600FD3D27 /* Air Drums */;
+			targetProxy = 1F9E0BDC1BF7E2B600FD3D27 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F7A1CF51BF88DF50058D84B /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F7A1CF61BF88DF50058D84B /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9E0BC31BF7E2B600FD3D27 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9E0BC41BF7E2B600FD3D27 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F9E0BC81BF7E2B600FD3D27 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F9E0BC91BF7E2B600FD3D27 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F7A1D121BF88DF50058D84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Air_Drums_Watch_Extension;
+				INFOPLIST_FILE = Air_Drums_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1F7A1D131BF88DF50058D84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				IBSC_MODULE = Air_Drums_Watch_Extension;
+				INFOPLIST_FILE = Air_Drums_Watch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1F7A1D141BF88DF50058D84B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Air_Drums_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Debug;
+		};
+		1F7A1D151BF88DF50058D84B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Air_Drums_Watch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				PROVISIONING_PROFILE = "";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 2.0;
+			};
+			name = Release;
+		};
+		1F9E0BE21BF7E2B600FD3D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F9E0BE31BF7E2B600FD3D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F9E0BE51BF7E2B600FD3D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Air Drums/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1F9E0BE61BF7E2B600FD3D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "Air Drums/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-Drums";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1F9E0BE81BF7E2B600FD3D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Air DrumsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-DrumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Drums.app/Air Drums";
+			};
+			name = Debug;
+		};
+		1F9E0BE91BF7E2B600FD3D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Air DrumsTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-DrumsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Air Drums.app/Air Drums";
+			};
+			name = Release;
+		};
+		1F9E0BEB1BF7E2B600FD3D27 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Air DrumsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-DrumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Air Drums";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1F9E0BEC1BF7E2B600FD3D27 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Air DrumsUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Air-DrumsUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Air Drums";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F7A1D161BF88DF50058D84B /* Build configuration list for PBXNativeTarget "Air_Drums_Watch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A1D141BF88DF50058D84B /* Debug */,
+				1F7A1D151BF88DF50058D84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F7A1D181BF88DF50058D84B /* Build configuration list for PBXNativeTarget "Air_Drums_Watch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F7A1D121BF88DF50058D84B /* Debug */,
+				1F7A1D131BF88DF50058D84B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9E0BB71BF7E2B600FD3D27 /* Build configuration list for PBXProject "Air Drums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9E0BE21BF7E2B600FD3D27 /* Debug */,
+				1F9E0BE31BF7E2B600FD3D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9E0BE41BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air Drums" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9E0BE51BF7E2B600FD3D27 /* Debug */,
+				1F9E0BE61BF7E2B600FD3D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9E0BE71BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air DrumsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9E0BE81BF7E2B600FD3D27 /* Debug */,
+				1F9E0BE91BF7E2B600FD3D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F9E0BEA1BF7E2B600FD3D27 /* Build configuration list for PBXNativeTarget "Air DrumsUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F9E0BEB1BF7E2B600FD3D27 /* Debug */,
+				1F9E0BEC1BF7E2B600FD3D27 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F9E0BB41BF7E2B600FD3D27 /* Project object */;
+}
